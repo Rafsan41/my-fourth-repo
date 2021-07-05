@@ -17,6 +17,7 @@ body{
     margin-right: 5%;
     padding-left: 20px;
     border-radius: 30px;
+    background-image: linear-gradient(rgb(71, 213, 231), rgb(178, 96, 255));
     box-shadow:10px 10px 40px  #474646;
   
 }
@@ -55,13 +56,19 @@ h2{
      border-radius: 30px;
  } 
  .widthhalf3{
-        width: 50%;
+        width: 500px;
+        height: 410px;
     margin-left:5% ;
     margin-right: 5%;
     padding-left: 20px;
     border-radius: 30px;
+    background-image: linear-gradient(#db69df,rgb(20, 233, 187));
     box-shadow:10px 10px 40px  #474646;
- }   
+ } 
+ .widthhalf3 img{
+     width: 250px;
+     height: 250px;
+ }    
  .hexathird{
        background-image: url(images/cssgrident.jpg);
      background-repeat:no-repeat ;
@@ -72,17 +79,46 @@ h2{
   width: 900px;
   height: 100px;
   position: relative;
-  animation: mymove 20s infinite;
-  animation-timing-function: landscape;
+  animation: mymove 10s infinite;
+  animation-timing-function: linear;
 }
 
 @keyframes mymove {
   from {left: 0px;}
-  to {left: 1350px;}
+  to {left: 1349px;}
 }
 .announce h2{
  color: chocolate;
 }
 #price{
     color:crimson
+}
+.widthhalf4{
+      width: 500px;
+      height: 420px;
+    margin-left:5% ;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-top: 2px;
+    border-radius: 30px;
+     background-image: linear-gradient(#db69df,rgb(20, 233, 187));
+    box-shadow:10px 10px 40px  #474646;
+}
+.widthhalf4 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    padding-top: 10px;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(#406eebe5, rgb(189, 107, 236)) ;
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+footer p{
+    text-align: center;
+
 }
