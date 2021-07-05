@@ -42,8 +42,8 @@ h2{
  .midelsecondpara{
      padding-left: 0%;
  }  
-  .widthhalf{ 
-       width: 40%;
+  .widthhalf2{ 
+       width: 50%;
     margin-left:5% ;
     margin-right: 5%;
     padding-left: 20px;
@@ -51,6 +51,38 @@ h2{
     box-shadow:10px 10px 40px  #474646;
   
  }
- .widthhalf img{
+ .widthhalf2 img{
      border-radius: 30px;
- }     
+ } 
+ .widthhalf3{
+        width: 50%;
+    margin-left:5% ;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 30px;
+    box-shadow:10px 10px 40px  #474646;
+ }   
+ .hexathird{
+       background-image: url(images/cssgrident.jpg);
+     background-repeat:no-repeat ;
+      background-attachment: fixed;
+       background-position: center; 
+ }
+ .announce{
+  width: 900px;
+  height: 100px;
+  position: relative;
+  animation: mymove 20s infinite;
+  animation-timing-function: landscape;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 1350px;}
+}
+.announce h2{
+ color: chocolate;
+}
+#price{
+    color:crimson
+}
